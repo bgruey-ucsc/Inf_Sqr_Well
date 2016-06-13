@@ -1,0 +1,5 @@
+# Do not track temp files from vim
+*~
+
+# Do not track png files, often save output from diagnostic plots
+*.png
