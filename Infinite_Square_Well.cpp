@@ -28,8 +28,17 @@ double basis(double x, double n, double a = 1) {
 double basis_inner_prod(int m, int n) {
 
 	if ( (n + m ) % 2 == 0) // if their sum is even:
-		return 2.0 / (n + m + 5.0) - 4.0 / (n + m + 3) + 2.0 / (n + m + 1);
+		return 2.0 / (n + m + 5.0) - 4.0 / (n + m + 3) + 2.0 / (n + m + 1.0);
 
 	else
 		return 0.0;
+}
+
+double hamiltonian_prod(int m, int n) {
+
+	if( (n + m ) % 2 == 0) // if sum is even
+		return 8.0 * (1.0 - m - n - 2.0 * m * n) / ( (m + n + 3) * (m + n + 1) * (m + n - 1) ) ;
+	else
+		return 0.0;
+
 }
