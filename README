@@ -8,7 +8,7 @@ This is not a file.
 Ok, it is a file, but that's beside the point.
 
 I started this with ROOT, that's what is in the file "headers.h." 
-Its the ROOT objects I most often use, so I just tossed them all into one file. 
-If you're on *nux, installing ROOT is generally doable. Else, get a *nix machine then try.
+It's the ROOT objects I most often use, so I just tossed them all into one file. 
+If you're on *nix, installing ROOT is generally doable. Else, get a *nix machine then try.
 
 
